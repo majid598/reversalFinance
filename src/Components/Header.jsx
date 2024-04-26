@@ -16,11 +16,11 @@ const Header = () => {
     },
     {
       name: "Dashboard",
-      path: "/dashboard",
+      path: "#",
     },
     {
       name: "eREV",
-      path: "/erv",
+      path: "#",
     },
     {
       name: "Governance",
@@ -42,7 +42,7 @@ const Header = () => {
         <div className="text-5xl font-extrabold overflow-hidden h-full">
           <img
             src={"/assets/logo.png"}
-            className="invert h-full object-center object-cover"
+            className="h-full object-center object-cover"
             alt="logo"
             width={170}
             height={100}
@@ -60,7 +60,7 @@ const Header = () => {
         <div className="text-5xl logo font-extrabold overflow-hidden h-full">
           <img
             src={"/assets/logo.png"}
-            className="invert h-full scale-125 object-center object-cover"
+            className="h-full"
             alt="logo"
             width={170}
             height={100}
@@ -81,8 +81,8 @@ const Header = () => {
                 to={link.path}
                 className={`nlink px-8 py-4 rounded-full ${
                   location.pathname === link.path
-                    ? "bg-zinc-800 text-white"
-                    : "text-zinc-800"
+                    ? "active text-white"
+                    : "text-[#0077c0]"
                 }`}
               >
                 {link.name}

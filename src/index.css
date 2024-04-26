@@ -71,6 +71,10 @@ body {
   }
 }
 
+.active.nlink {
+  background-color: #0077c0;
+}
+
 @media only screen and (max-width: 1100px) {
   .logo {
     display: none;
@@ -82,7 +86,7 @@ body {
     display: flex;
   }
   .header {
-    background-color: #3f3f46;
+    background-color: #0077c0;
     position: absolute;
     flex-direction: column-reverse;
     width: 20rem;
@@ -112,8 +116,11 @@ body {
     border-radius: 0;
     padding: 20px;
   }
+  .active.nlink {
+    background-color: #00426b;
+  }
   .nlink:hover {
-    background-color: #27272a;
+    background-color: #00426b;
   }
   .head {
     display: flex;

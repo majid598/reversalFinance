@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-zinc-700 text-white p-10 px-20">
+    <div className="w-full bg-[#0077c0] text-white p-10 px-20">
       <div className="w-full h-full flex flex-col justify-between">
         <div className="flex flex-col items-start border-b-2 pb-10">
           <h1 className="text-2xl font-bold mt-5">
@@ -14,7 +14,7 @@ const Footer = () => {
             Inverse products, partnerships, and early-bird news shared only with
             subscribers!
           </p>
-          <button className="text-xl px-8 py-3 mt-5 rounded-full transition-all duration-500 hover:bg-white hover:text-zinc-700 font-bold text-white border-2 border-white">
+          <button className="text-xl px-8 py-3 mt-5 rounded-full transition-all duration-500 hover:bg-white hover:text-[#0077c0] font-bold text-white border-2 border-white">
             Subscribe Now
           </button>
         </div>
