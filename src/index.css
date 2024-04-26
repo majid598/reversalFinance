@@ -72,6 +72,9 @@ body {
   .lg-text-center{
     text-align: center !important;
   }
+  .lg-text-sm{
+    font-size: 1rem;
+  }
 }
 
 .active.nlink {
