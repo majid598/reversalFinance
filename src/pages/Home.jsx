@@ -127,11 +127,11 @@ const Home = () => {
           Give Reversal Economics <br className="lg:block md:block hidden" /> a
           go Let our protocol help you out.
         </h4>
-        <div className="flex flex-wrap justify-center gap-10 mt-10">
+        <div className="flex flex-wrap justify-center lg:gap-10 md:gap-10 sm:gap-4 mt-10">
           {boxes.map((box) => (
             <div
               key={box.heading}
-              className="lg:w-[24rem] md:w-[24rem] sm:w-[24rem] w-full py- flex flex-col justify-center items-center p-5"
+              className="lg:w-[24rem] md:w-[24rem] sm:w-[24rem] w-full flex flex-col justify-center items-center p-5"
             >
               <div className="w-full py-4">
                 <img
@@ -140,15 +140,17 @@ const Home = () => {
                   alt="Image can't load"
                 />
               </div>
-              <div className="w-full ">
-                <h1 className="text-3xl lg-text-3xl text-[#0077c0] font-semibold text-center">
-                  {box.heading}
-                </h1>
+              <h1 className="text-3xl lg-text-3xl text-[#0077c0] font-semibold text-center">
+                {box.heading}
+              </h1>
+              <div
+                className="w-full lg:h-2/5"
+              >
                 <p className="text-xl mb-8 px4 lg-text-xl text-zinc-500 font-semibold tracking-tight mt-5 text-center">
                   {box.text}
                 </p>
               </div>
-              <button className="mx-auto mt-8 border-2 md:px-4 px-3 border-[#0077c0] text-[#0077c0] hover:bg-[#0077c0] hover:text-white transition-all duration-500 font-semibold text-xl lg:px-4 py-2 rounded-md">
+              <button className="mx-auto mt-5 border-2 md:px-4 px-3 border-[#0077c0] text-[#0077c0] hover:bg-[#0077c0] hover:text-white transition-all duration-500 font-semibold text-xl lg:px-4 py-2 rounded-md">
                 {box.buttonText}
               </button>
             </div>
