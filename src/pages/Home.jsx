@@ -115,7 +115,7 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full lg:min-h-screen py-10 px-20">
-        <h4 className="lg:text-5xl md:text-4xl text-3xl text-[#0077c0] lg:text-start text-center lg:tracking-normal md:tracking-normal tracking-tighter font-bold mt-2">
+        <h4 className="lg:text-5xl md:text-4xl lg-text-center lg:px-12 w-full text-3xl text-[#0077c0] lg:text-start text-center lg:tracking-normal md:tracking-normal tracking-tighter font-bold mt-2">
           Give Reversal Economics <br className="lg:block md:block hidden" /> a
           go Let our protocol help you out
         </h4>

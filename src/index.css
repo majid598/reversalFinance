@@ -69,6 +69,9 @@ body {
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
   }
+  .lg-text-center{
+    text-align: center !important;
+  }
 }
 
 .active.nlink {
