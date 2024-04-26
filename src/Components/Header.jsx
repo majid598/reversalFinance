@@ -78,18 +78,9 @@ const Header = () => {
         <div className="ext hidden"></div>
         <div className="links flex items-center gap-3">
           {links.map((link) => (
-            <div className="font-semibold text-xl">
-              <Link
-                href={link.path}
-                className={`nlink ${
-                  location.pathname === link.path
-                    ? "bg-zinc-800 text-white"
-                    : "text-zinc-800 bg-transparent"
-                } rounded-full px-8 py-4 bg-zinc-700`}
-              >
-                {link.name}
-              </Link>
-            </div>
+            // <div className="font-semibold text-xl text-red-500">
+              <Link to="/" className="text-red-500">Home</Link>
+            // </div>
           ))}
         </div>
       </nav>
