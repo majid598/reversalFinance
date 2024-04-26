@@ -45,6 +45,7 @@ const Header = () => {
           <img
             src={"/assets/logo.png"}
             className="invert h-full object-center object-cover"
+            alt="logo"
             width={170}
             height={100}
           />
@@ -62,6 +63,7 @@ const Header = () => {
           <img
             src={"/assets/logo.png"}
             className="invert h-full scale-125 object-center object-cover"
+            alt="logo"
             width={170}
             height={100}
           />
