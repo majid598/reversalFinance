@@ -14,7 +14,7 @@ const Footer = () => {
             Inverse products, partnerships, and early-bird news shared only with
             subscribers!
           </p>
-          <button className="lg:text-xl md:text-lg sm:text-lg text-sm lg:px-8 md:px-5 px-3 lg:py-3 py-2 mt-5 rounded-md transition-all duration-500 hover:bg-white hover:text-[#0077c0] font-bold text-white border-2 border-white">
+          <button className="lg:text-xl md:text-lg sm:text-lg text-sm lg:px-6 px-3 py-2 mt-5 rounded-md transition-all duration-500 hover:bg-white hover:text-[#0077c0] font-semibold text-white border-2 border-white">
             Subscribe Now
           </button>
         </div>

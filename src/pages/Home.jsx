@@ -228,7 +228,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <div className="w-full lg:min-h-screen lg:px-20 px-10 py-5">
+      <div className="w-full lg:px-20 px-10 py-10 pb-24">
         <div className="w-full flex flex-col items-center justify-center">
           <h1 className="lg:text-4xl md:text-4xl text-2xl font-bold text-[#0077c0] lg:text-start text-center">
             Building and Governing in one{" "}
@@ -248,17 +248,14 @@ const Home = () => {
               operational visibility in DeFi.
             </p>
             <div className="flex gap-3 mt-8 justify-center">
-              <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
+              <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white font-semibold border-2 border-[#0077c0]">
                 Join our Discord
               </button>
-              <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
+              <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] font-semibold border-2 border-[#0077c0]">
                 View Proposals
               </button>
             </div>
           </div>
-          {/* <div className="lg:w-1/2 lg-w-full py-20 lg:px-20">
-            <div className="w-full h-[50vh] bg-red-500"></div>
-          </div> */}
         </div>
       </div>
       <Footer />
