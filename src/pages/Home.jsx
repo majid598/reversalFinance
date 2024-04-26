@@ -42,7 +42,7 @@ const Home = () => {
     },
   ];
   return (
-    <div className="w-full bg-zinc-200">
+    <div className="w-full bg-zinc-200 relative overflow-x-hidden">
       <Header />
       <div className="w-full lg:h-[calc(100vh-7rem)] md:h-[calc(100vh-7rem)] h-screen flex lg:px-20 md:px-20 px-10 relative">
         <div className="w-full flex relative z-50 h-full items-center justify-center flex-col text-center">
@@ -56,10 +56,10 @@ const Home = () => {
             potentially yield higher returns.
           </h5>
           <div className="flex mt-16 lg:gap-8 gap-4">
-            <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white font-bold border-2 border-[#0077c0]">
+            <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
               Enter app
             </button>
-            <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] font-bold border-2 border-[#0077c0]">
+            <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
               Learn more <GoArrowUpRight />
             </button>
           </div>
@@ -81,12 +81,12 @@ const Home = () => {
           <br /> and borrow later, offering stability and predictability.
         </h4>
         <div className="flex mt-16 lg:gap-8 gap-4">
-          <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white font-bold border-2 border-[#0077c0]">
+          <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
             Enter app
           </button>
-          <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] font-bold border-2 border-[#0077c0]">
-              Learn more <GoArrowUpRight />
-            </button>
+          <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
+            Learn more <GoArrowUpRight />
+          </button>
         </div>
       </div>
       <div className="w-full !lg:h-[calc(100vh-10rem)] lg:p-28 lg:px-20 px-10 py-10">
@@ -122,10 +122,10 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="w-full lg:min-h-screen py-10 px-20">
+      <div className="w-full py-10 lg:px-20">
         <h4 className="lg:text-5xl md:text-4xl lg:px-12 px-10 text-3xl text-[#0077c0] text-center lg:tracking-normal md:tracking-normal tracking-tighter font-bold mt-2">
           Give Reversal Economics <br className="lg:block md:block hidden" /> a
-          go Let our protocol help you out
+          go Let our protocol help you out.
         </h4>
         <div className="flex flex-wrap justify-center gap-10 mt-10">
           {boxes.map((box) => (
@@ -144,11 +144,11 @@ const Home = () => {
                 <h1 className="text-3xl lg-text-3xl text-[#0077c0] font-semibold text-center">
                   {box.heading}
                 </h1>
-                <p className="text-xl mb-8 px4 lg-text-xl text-[#0076c0b3] font-semibold tracking-tight mt-5 text-center">
+                <p className="text-xl mb-8 px4 lg-text-xl text-zinc-500 font-semibold tracking-tight mt-5 text-center">
                   {box.text}
                 </p>
               </div>
-              <button className="mx-auto mt-8 border-2 lg-px-7 lg-py-2 border-[#0077c0] text-[#0077c0] hover:bg-[#0077c0] hover:text-white transition-all duration-500 font-bold text-xl px-6 py-3 rounded-md">
+              <button className="mx-auto mt-8 border-2 md:px-4 px-3 border-[#0077c0] text-[#0077c0] hover:bg-[#0077c0] hover:text-white transition-all duration-500 font-bold text-xl lg:px-4 py-2 rounded-md">
                 {box.buttonText}
               </button>
             </div>
@@ -188,40 +188,40 @@ const Home = () => {
         <div className="w-1/2 h-full px-5"></div>
       </div>
       <div className="w-full justify-between lg:flex-row md:flex-row flex-col flex mt-12 lg:p-20 md:p-20 py-10 px-5 items-center bg-[#0077c0] text-white">
-        <h2 className="lg:text-2xl md:text-2xl text-xl lg:text-start md:text-start text-center font-semibold">
+        <h2 className="lg:text-2xl md:text-xl lg:text-start md:text-start text-center lg:font-semibold md:font-semibold">
           Reversal Economics welcomes developers and security researchers to{" "}
           <br />
           explore our GitHub repositories and earn bug bounty rewards.
         </h2>
-        <button className="px-8 py-3 rounded-full border-2 border-white transition-all lg:mt-0 md:mt-0 mt-6 duration-500 hover:bg-white hover:text-[#0077c0] font-semibold">
+        <button className="lg:px-5 px-3 py-2 rounded-md border-2 border-white transition-all lg:mt-0 md:mt-0 mt-6 duration-500 hover:bg-white hover:text-[#0077c0] font-semibold">
           Bug Bounty Program
         </button>
       </div>
-      <div className="w-full p-20">
+      <div className="w-full p-20 px-40">
         <div className="w-full flex flex-col items-center">
           <div>
             <h1 className="lg:text-6xl md:text-5xl text-3xl text-center font-bold text-[#0077c0]">
               The Stats
             </h1>
-            <h4 className="text-2xl font-semibold mt-5 text-[#0076c0b3] text-center">
+            <h4 className="text-2xl font-semibold mt-5 text-zinc-500 text-center">
               Inverse Finance DAO operates unmatched transparency into its
               operation and governance
             </h4>
           </div>
-          <button className="lg:px-8 md:px-8 px-5 lg:py-3 md:py-3 py-2 mt-6 rounded-full border-2 border-[#0077c0] hover:bg-[#0077c0] font-bold text-xl text-[#0077c0] hover:text-white transition-all duration-500 ">
+          <button className="lg:px-8 md:px-5 px-3 py-2 mt-6 rounded-md border-2 border-[#0077c0] hover:bg-[#0077c0] font-bold text-xl text-[#0077c0] hover:text-white transition-all duration-500 ">
             DAO Analytics
           </button>
         </div>
-        <div className="w-full flex flex-wrap justify-center gap-6 mt-20">
+        <div className="w-full grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-3 grid-cols-2 justify-center gap-6 mt-20">
           {stats.map((state) => (
             <div
               key={state.title}
-              className="lg:w-72 md:w-72 sm:w-72 w-full flex flex-col gap-4 items-center bg-white rounded-2xl p-5 px-6 text-center"
+              className="w-full flex flex-col gap-4 items-center bg-white rounded-md p-5 px-6 text-center"
             >
-              <h1 className="lg:text-4xl text-3xl font-bold text-[#0077c0]">
+              <h1 className="lg:text-4xl md:text-2xl text-xl font-bold text-[#0077c0]">
                 ${state.value}
               </h1>
-              <h3 className="lg:text-2xl text-xl font-semibold text-[#0076c0b3] tracking-tight">
+              <h3 className="lg:text-2xl md:text-xl sm:text-lg text-sm font-semibold text-zinc-500 tracking-tight">
                 {state.title}
               </h3>
             </div>
@@ -230,28 +230,28 @@ const Home = () => {
       </div>
       <div className="w-full lg:min-h-screen lg:px-20 px-10 py-5">
         <div className="w-full flex lg:flex-row flex-col lg-flex-col items-center lg:justify-between justify-center">
-          <h1 className="text-5xl font-bold text-[#0077c0] lg:text-start text-center">
+          <h1 className="lg:text-5xl md:text-3xl text-2xl font-bold text-[#0077c0] lg:text-start text-center">
             Building and Governing in one{" "}
           </h1>
-          <button className="lg:px-8 lg:py-3 px-5 py-2 lg-mt-5 rounded-full border-2 text-[#0077c0] border-[#0077c0] transition-all duration-500 hover:bg-[#0077c0] hover:text-white font-semibold">
+          <button className="lg:px-5 px-3 py-2 lg-mt-5 rounded-md border-2 text-[#0077c0] border-[#0077c0] transition-all duration-500 hover:bg-[#0077c0] hover:text-white font-semibold">
             DAO Transparency
           </button>
         </div>
         <div className="w-full flex mt-10 lg:flex-row lg-flex-col lg-items-center">
           <div className="lg:w-1/2 lg-w-full lg:pr-6 lg:text-start text-center flex flex-col justify-center">
-            <p className="text-2xl font-semibold text-[#0077c0]">
+            <p className="lg:text-2xl font-semibold text-zinc-800">
               At Reversal Economics, we leverage 100% on-chain voting, avoiding
               the pitfalls associated with centralized DAO governance.
             </p>
-            <p className="text-2xl font-semibold text-[#0076c0b3] mt-5">
+            <p className="lg:text-2xl font-semibold text-zinc-500 mt-5">
               We're committed to transparency, offering unparalleled levels of
               operational visibility in DeFi.
             </p>
-            <div className="flex gap-3 justify-center mt-8">
-              <button className="px-8 py-2 text-xl rounded-full transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] font-bold border-2 border-[#0077c0]">
+            <div className="flex gap-3 mt-8">
+              <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
                 Join our Discord
               </button>
-              <button className="px-8 py-2 text-xl flex items-center gap-2 rounded-full text-[#0077c0] font-bold border-2 border-[#0077c0]">
+              <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
                 View Proposals
               </button>
             </div>
