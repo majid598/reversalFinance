@@ -69,13 +69,9 @@ body {
     padding-top: 0.7rem;
     padding-bottom: 0.7rem;
   }
-  .lg-text-center{
-    text-align: center !important;
-  }
-  .lg-text-xxl{
+  .lg-text-xxl {
     font-size: 1.2rem !important;
   }
-  
 }
 
 .active.nlink {
@@ -137,6 +133,9 @@ body {
   .lg-flex-col {
     flex-direction: column !important;
   }
+  .lg-text-center {
+    text-align: center !important;
+  }
   .px-40 {
     padding-left: 3rem;
     padding-right: 3rem;
@@ -147,10 +146,10 @@ body {
   .lg-mt-5 {
     margin-top: 20px;
   }
-  .lg-w-full{
+  .lg-w-full {
     width: 100% !important;
   }
-  .lg-justify-center{
+  .lg-justify-center {
     justify-content: center !important;
     margin-top: 40px;
   }
@@ -160,8 +159,10 @@ body {
   .text-5xl {
     font-size: 2rem;
   }
-  .text-2xl {
-    font-size: 1rem;
-    line-height: 1.3rem;
+
+}
+@media only screen and (max-width: 500px) {
+  .sm-text-sm {
+    font-size: 0.8rem !important;
   }
 }

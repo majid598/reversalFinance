@@ -46,20 +46,20 @@ const Home = () => {
       <Header />
       <div className="w-full lg:h-[calc(100vh-7rem)] md:h-[calc(100vh-7rem)] h-screen flex lg:px-20 md:px-20 px-10 relative">
         <div className="w-full flex relative z-50 h-full items-center justify-center flex-col text-center">
-          <h2 className="lg:text-7xl md:text-6xl text-4xl font-extrabold text-[#0077c0]">
+          <h2 className="lg:text-5xl md:text-4xl text-3xl font-extrabold text-[#0077c0]">
             Rethink your <br />
             Borrowing Strategy.
           </h2>
-          <h5 className="text-2xl font-semibold mt-5 text-zinc-700">
+          <h5 className="font-semibold mt-5 text-zinc-700">
             REV Borrowing Rights introduces a new paradigm by replacing interest
             rates with <br className="lg:block hidden" /> a fixed fee that can
             potentially yield higher returns.
           </h5>
           <div className="flex mt-16 lg:gap-8 gap-4">
-            <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
+            <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
               Enter app
             </button>
-            <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
+            <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
               Learn more <GoArrowUpRight />
             </button>
           </div>
@@ -69,46 +69,46 @@ const Home = () => {
         <span className="lg:text-9xl text-7xl  font-extrabold text-[#0077c0]">
           0%
         </span>
-        <h1 className="text-5xl font-bold text-[#0077c0] mt-10 text-center">
+        <h1 className="lg:text-4xl md:text-4xl text-2xl font-bold text-[#0077c0] mt-10 text-center">
           Say Goodbye to Interest Fees
         </h1>
-        <h3 className="text-2xl text-zinc-800 font-semibold mt-10 text-center">
+        <h3 className="lg:text-xl md:text-lg sm:text-lg text-sm text-zinc-800 font-semibold mt-10 text-center">
           Traditional interest rates can be unpredictable and unsustainable{" "}
           <br /> for long-term borrowers.
         </h3>
-        <h4 className="text-2xl font-semibold text-zinc-600 mt-8 text-center">
+        <h4 className="lg:text-xl md:text-lg sm:text-lg text-sm font-semibold text-zinc-600 mt-8 text-center">
           REV Borrowing Rights (REVs) empower you to lock in a fixed rate today{" "}
           <br /> and borrow later, offering stability and predictability.
         </h4>
         <div className="flex mt-16 lg:gap-8 gap-4">
-          <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
+          <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
             Enter app
           </button>
-          <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
+          <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
             Learn more <GoArrowUpRight />
           </button>
         </div>
       </div>
       <div className="w-full !lg:h-[calc(100vh-10rem)] lg:p-28 lg:px-20 px-10 py-10">
         <div className="w-full flex lg:flex-row lg:items-center lg-flex-col h-full gap-10">
-          <div className="lg:w-1/2 w-full h-full lg-w-full  flex flex-col">
-            <h1 className="text-5xl font-bold text-[#0077c0] lg-text-center">
+          <div className="lg:w-1/2 w-full h-full lg-w-full flex flex-col">
+            <h1 className="lg:text-4xl md:text-4xl text-2xl font-bold text-[#0077c0] lg-text-center">
               Introducing eREV
             </h1>
-            <h3 className="text-2xl font-semibold mt-4 text-zinc-800 lg-text-center lg:text-start md:text-start text-center">
+            <h3 className="lg:text-xl md:text-lg sm:text-lg text-sm font-semibold mt-4 text-zinc-800 lg-text-center lg:text-start md:text-start text-center">
               Unlock the Power of Inverse's New Yield-bearing Stablecoin
             </h3>
             <ul className="mt-10 text-zinc-600 tracking-tighter flex flex-col gap-2">
-              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl tracking-tight font-semibold">
+              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl sm-text-sm lg:font-semibold md:font-semibold">
                 Enjoy an APY of 11.45% (expected to rise to 14.88%)
               </li>
-              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl tracking-tight font-semibold">
+              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl sm-text-sm lg:font-semibold md:font-semibold">
                 100% Organic Yield, Straight from the Blockchain
               </li>
-              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl tracking-tight font-semibold">
+              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl sm-text-sm lg:font-semibold md:font-semibold">
                 Completely Decentralized, No Third-party Custodians
               </li>
-              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl tracking-tight font-semibold">
+              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl sm-text-sm lg:font-semibold md:font-semibold">
                 Withdraw Your Funds Anytime, Penalty-free
               </li>
             </ul>
@@ -123,7 +123,7 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full py-10 lg:px-20">
-        <h4 className="lg:text-5xl md:text-4xl lg:px-12 px-10 text-3xl text-[#0077c0] text-center lg:tracking-normal md:tracking-normal tracking-tighter font-bold mt-2">
+        <h4 className="lg:text-4xl md:text-4xl text-2xl lg:px-12 px-10 text-[#0077c0] text-center lg:tracking-normal md:tracking-normal tracking-tighter font-bold mt-2">
           Give Reversal Economics <br className="lg:block md:block hidden" /> a
           go Let our protocol help you out.
         </h4>
@@ -131,7 +131,7 @@ const Home = () => {
           {boxes.map((box) => (
             <div
               key={box.heading}
-              className="lg:w-[24rem] md:w-[24rem] sm:w-[24rem] w-full py-10 flex flex-col justify-center items-center p-5"
+              className="lg:w-[24rem] md:w-[24rem] sm:w-[24rem] w-full py- flex flex-col justify-center items-center p-5"
             >
               <div className="w-full py-4">
                 <img
@@ -148,7 +148,7 @@ const Home = () => {
                   {box.text}
                 </p>
               </div>
-              <button className="mx-auto mt-8 border-2 md:px-4 px-3 border-[#0077c0] text-[#0077c0] hover:bg-[#0077c0] hover:text-white transition-all duration-500 font-bold text-xl lg:px-4 py-2 rounded-md">
+              <button className="mx-auto mt-8 border-2 md:px-4 px-3 border-[#0077c0] text-[#0077c0] hover:bg-[#0077c0] hover:text-white transition-all duration-500 font-semibold text-xl lg:px-4 py-2 rounded-md">
                 {box.buttonText}
               </button>
             </div>
@@ -229,29 +229,29 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full lg:min-h-screen lg:px-20 px-10 py-5">
-        <div className="w-full flex lg:flex-row flex-col lg-flex-col items-center lg:justify-between justify-center">
+        <div className="w-full flex flex-col items-center justify-center">
           <h1 className="lg:text-5xl md:text-3xl text-2xl font-bold text-[#0077c0] lg:text-start text-center">
             Building and Governing in one{" "}
           </h1>
-          <button className="lg:px-5 px-3 py-2 lg-mt-5 rounded-md border-2 text-[#0077c0] border-[#0077c0] transition-all duration-500 hover:bg-[#0077c0] hover:text-white font-semibold">
+          <button className="lg:px-5 px-3 py-2 mt-8 rounded-md border-2 text-[#0077c0] border-[#0077c0] transition-all duration-500 hover:bg-[#0077c0] hover:text-white font-semibold">
             DAO Transparency
           </button>
         </div>
         <div className="w-full flex mt-10 lg:flex-row lg-items-center">
-          <div className="w-full lg:text-start text-center flex flex-col justify-center">
-            <p className="lg:text-2xl font-semibold text-zinc-800">
+          <div className="w-full text-center flex flex-col justify-center">
+            <p className="lg:text-2xl font-semibold text-center text-zinc-800">
               At Reversal Economics, we leverage 100% on-chain voting, avoiding
               the pitfalls associated with centralized DAO governance.
             </p>
-            <p className="lg:text-2xl font-semibold text-zinc-500 mt-5">
+            <p className="lg:text-2xl font-semibold text-center text-zinc-500 mt-5">
               We're committed to transparency, offering unparalleled levels of
               operational visibility in DeFi.
             </p>
-            <div className="flex gap-3 mt-8 lg-justify-center">
-              <button className="lg:px-5 px-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
+            <div className="flex gap-3 mt-8 justify-center">
+              <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
                 Join our Discord
               </button>
-              <button className="lg:px-5 px-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
+              <button className="lg:px-6 px-3 py-2 lg:text-lg md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
                 View Proposals
               </button>
             </div>
