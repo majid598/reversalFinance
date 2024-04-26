@@ -75,6 +75,7 @@ body {
   .lg-text-xxl{
     font-size: 1.2rem !important;
   }
+  
 }
 
 .active.nlink {
@@ -145,6 +146,13 @@ body {
   }
   .lg-mt-5 {
     margin-top: 20px;
+  }
+  .lg-w-full{
+    width: 100% !important;
+  }
+  .lg-justify-center{
+    justify-content: center !important;
+    margin-top: 40px;
   }
 }
 

@@ -90,12 +90,12 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full !lg:h-[calc(100vh-10rem)] lg:p-28 lg:px-20 px-10 py-10">
-        <div className="w-full flex lg:flex-row lg-flex-col h-full gap-10">
-          <div className="lg:w-1/2 w-full h-full lg-w-full py-10">
-            <h1 className="text-5xl font-bold text-[#0077c0]">
+        <div className="w-full flex lg:flex-row lg:items-center lg-flex-col h-full gap-10">
+          <div className="lg:w-1/2 w-full h-full lg-w-full  flex flex-col py-10">
+            <h1 className="text-5xl font-bold text-[#0077c0] lg-text-center">
               Introducing eREV
             </h1>
-            <h3 className="text-2xl font-semibold mt-4 text-zinc-800 lg:text-start md:text-start text-center">
+            <h3 className="text-2xl font-semibold mt-4 text-zinc-800 lg-text-center lg:text-start md:text-start text-center">
               Unlock the Power of Inverse's New Yield-bearing Stablecoin
             </h3>
             <ul className="mt-10 text-zinc-600 tracking-tighter flex flex-col gap-2">
@@ -237,8 +237,8 @@ const Home = () => {
             DAO Transparency
           </button>
         </div>
-        <div className="w-full flex mt-10 lg:flex-row lg-flex-col lg-items-center">
-          <div className="lg:w-1/2 lg-w-full lg:pr-6 lg:text-start text-center flex flex-col justify-center">
+        <div className="w-full flex mt-10 lg:flex-row lg-items-center">
+          <div className="w-full lg:text-start text-center flex flex-col justify-center">
             <p className="lg:text-2xl font-semibold text-zinc-800">
               At Reversal Economics, we leverage 100% on-chain voting, avoiding
               the pitfalls associated with centralized DAO governance.
@@ -247,18 +247,18 @@ const Home = () => {
               We're committed to transparency, offering unparalleled levels of
               operational visibility in DeFi.
             </p>
-            <div className="flex gap-3 mt-8">
-              <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
+            <div className="flex gap-3 mt-8 lg-justify-center">
+              <button className="lg:px-5 px-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white lg:font-bold font-semibold border-2 border-[#0077c0]">
                 Join our Discord
               </button>
-              <button className="lg:px-8 px-3 lg:py-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
+              <button className="lg:px-5 px-3 py-2 lg:text-xl md:text-lg sm:text-lg text-sm flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] lg:font-bold font-semibold border-2 border-[#0077c0]">
                 View Proposals
               </button>
             </div>
           </div>
-          <div className="lg:w-1/2 lg-w-full py-20 lg:px-20">
+          {/* <div className="lg:w-1/2 lg-w-full py-20 lg:px-20">
             <div className="w-full h-[50vh] bg-red-500"></div>
-          </div>
+          </div> */}
         </div>
       </div>
       <Footer />
