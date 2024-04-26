@@ -1,9 +1,7 @@
 import { useState } from "react";
 // import { Link, useLocation } from "react-router-dom";
 import { IoMdClose, IoMdMenu } from "react-icons/io";
-import { useLocation } from "react-router-dom";
-
-const Link = ({ href, children }) => <a href={href}>{children}</a>;
+import { useLocation, Link } from "react-router-dom";
 
 const Header = () => {
   //   const location = useLocation()
@@ -18,11 +16,11 @@ const Header = () => {
     },
     {
       name: "Dashboard",
-      path: "#",
+      path: "/dashboard",
     },
     {
       name: "eREV",
-      path: "#",
+      path: "/erv",
     },
     {
       name: "Governance",
@@ -76,11 +74,20 @@ const Header = () => {
           <IoMdClose />{" "}
         </button>
         <div className="ext hidden"></div>
-        <div className="links flex items-center gap-3">
+        <div className="links flex items-center">
           {links.map((link) => (
-            // <div className="font-semibold text-xl text-red-500">
-              <Link to="/" className="text-red-500">Home</Link>
-            // </div>
+            <div className="font-semibold text-xl">
+              <Link
+                to={link.path}
+                className={`nlink px-8 py-4 rounded-full ${
+                  location.pathname === link.path
+                    ? "bg-zinc-800 text-white"
+                    : "text-zinc-800"
+                }`}
+              >
+                {link.name}
+              </Link>
+            </div>
           ))}
         </div>
       </nav>
