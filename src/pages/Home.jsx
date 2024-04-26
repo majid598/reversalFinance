@@ -95,7 +95,7 @@ const Home = () => {
             <h1 className="text-5xl font-bold text-[#0077c0]">
               Introducing eREV
             </h1>
-            <h3 className="text-2xl font-semibold mt-4 text-zinc-800 lg:text-start md:text-start text-center">
+            <h3 className="text-xl font-semibold mt-4 text-zinc-800 lg:text-start md:text-start text-center">
               Unlock the Power of Inverse's New Yield-bearing Stablecoin
             </h3>
             <ul className="mt-10 text-zinc-600 tracking-tighter flex flex-col gap-2">
