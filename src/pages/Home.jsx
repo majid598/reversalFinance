@@ -91,7 +91,7 @@ const Home = () => {
       </div>
       <div className="w-full !lg:h-[calc(100vh-10rem)] lg:p-28 lg:px-20 px-10 py-10">
         <div className="w-full flex lg:flex-row lg:items-center lg-flex-col h-full gap-10">
-          <div className="lg:w-1/2 w-full h-full lg-w-full  flex flex-col py-10">
+          <div className="lg:w-1/2 w-full h-full lg-w-full  flex flex-col">
             <h1 className="text-5xl font-bold text-[#0077c0] lg-text-center">
               Introducing eREV
             </h1>
