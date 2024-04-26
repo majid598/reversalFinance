@@ -95,20 +95,20 @@ const Home = () => {
             <h1 className="text-5xl font-bold text-[#0077c0]">
               Introducing eREV
             </h1>
-            <h3 className="text-xl lg-text-sm font-semibold mt-4 text-zinc-800 lg:text-start md:text-start text-center">
+            <h3 className="text-2xl font-semibold mt-4 text-zinc-800 lg:text-start md:text-start text-center">
               Unlock the Power of Inverse's New Yield-bearing Stablecoin
             </h3>
             <ul className="mt-10 text-zinc-600 tracking-tighter flex flex-col gap-2">
-              <li className="list-disc list-inside text-2xl font-semibold">
+              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl tracking-tight font-semibold">
                 Enjoy an APY of 11.45% (expected to rise to 14.88%)
               </li>
-              <li className="list-disc list-inside text-2xl font-semibold">
+              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl tracking-tight font-semibold">
                 100% Organic Yield, Straight from the Blockchain
               </li>
-              <li className="list-disc list-inside text-2xl font-semibold">
+              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl tracking-tight font-semibold">
                 Completely Decentralized, No Third-party Custodians
               </li>
-              <li className="list-disc list-inside text-2xl font-semibold">
+              <li className="list-disc list-inside lg:text-2xl md:text-xl lg-text-xxl tracking-tight font-semibold">
                 Withdraw Your Funds Anytime, Penalty-free
               </li>
             </ul>

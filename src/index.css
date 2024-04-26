@@ -72,8 +72,8 @@ body {
   .lg-text-center{
     text-align: center !important;
   }
-  .lg-text-sm{
-    font-size: 1rem;
+  .lg-text-xxl{
+    font-size: 1.2rem !important;
   }
 }
 
