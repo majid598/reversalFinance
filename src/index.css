@@ -90,13 +90,14 @@ body {
   }
   .header {
     background-color: #0077c0;
-    position: absolute;
+    position: fixed;
     flex-direction: column-reverse;
     width: 20rem;
     height: 100vh;
     right: -100%;
     top: 0;
     padding: 0 0;
+    
   }
   .active.header {
     right: 0;
