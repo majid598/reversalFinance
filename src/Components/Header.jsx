@@ -82,7 +82,7 @@ const Header = () => {
                 className={`nlink px-8 py-4 rounded-full ${
                   location.pathname === link.path
                     ? "active text-white"
-                    : "text-[#0077c0]"
+                    : "text-zinc-800"
                 }`}
               >
                 {link.name}

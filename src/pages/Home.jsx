@@ -50,11 +50,19 @@ const Home = () => {
             Rethink your <br />
             Borrowing Strategy.
           </h2>
-          <h5 className="text-2xl font-semibold mt-5 text-[#0076c0b3]">
+          <h5 className="text-2xl font-semibold mt-5 text-zinc-700">
             REV Borrowing Rights introduces a new paradigm by replacing interest
             rates with <br className="lg:block hidden" /> a fixed fee that can
             potentially yield higher returns.
           </h5>
+          <div className="flex mt-16 lg:gap-8 gap-4">
+            <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white font-bold border-2 border-[#0077c0]">
+              Enter app
+            </button>
+            <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] font-bold border-2 border-[#0077c0]">
+              Learn more <GoArrowUpRight />
+            </button>
+          </div>
         </div>
       </div>
       <div className="lg:px-20 md:px-20 px-10 py-10 flex flex-col lg:w-2/3 md:w-2/3 w-full mx-auto items-center">
@@ -64,21 +72,21 @@ const Home = () => {
         <h1 className="text-5xl font-bold text-[#0077c0] mt-10 text-center">
           Say Goodbye to Interest Fees
         </h1>
-        <h3 className="text-2xl text-[#0077c0] font-semibold mt-10 text-center">
+        <h3 className="text-2xl text-zinc-800 font-semibold mt-10 text-center">
           Traditional interest rates can be unpredictable and unsustainable{" "}
           <br /> for long-term borrowers.
         </h3>
-        <h4 className="text-2xl font-semibold text-[#0076c0b3] mt-8 text-center">
+        <h4 className="text-2xl font-semibold text-zinc-600 mt-8 text-center">
           REV Borrowing Rights (REVs) empower you to lock in a fixed rate today{" "}
           <br /> and borrow later, offering stability and predictability.
         </h4>
         <div className="flex mt-16 lg:gap-8 gap-4">
-          <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl rounded-full transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] font-bold border-2 border-[#0077c0]">
+          <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl rounded-md transition-all duration-500 bg-[#0077c0] hover:bg-[#003b5f] hover:border-[#003b5f] text-white font-bold border-2 border-[#0077c0]">
             Enter app
           </button>
-          <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl flex items-center gap-2 rounded-full text-[#0077c0] font-bold border-2 border-[#0077c0]">
-            Learn more <GoArrowUpRight />
-          </button>
+          <button className="lg:px-8 px-5 lg:py-3 py-2 text-xl flex items-center gap-2 rounded-md transition-all duration-500 hover:bg-[#0077c0] hover:text-white text-[#0077c0] font-bold border-2 border-[#0077c0]">
+              Learn more <GoArrowUpRight />
+            </button>
         </div>
       </div>
       <div className="w-full !lg:h-[calc(100vh-10rem)] lg:p-28 lg:px-20 px-10 py-10">
@@ -87,10 +95,10 @@ const Home = () => {
             <h1 className="text-5xl font-bold text-[#0077c0]">
               Introducing eREV
             </h1>
-            <h3 className="text-2xl font-semibold mt-4 text-[#0077c0] lg:text-start md:text-start text-center">
+            <h3 className="text-2xl font-semibold mt-4 text-zinc-800 lg:text-start md:text-start text-center">
               Unlock the Power of Inverse's New Yield-bearing Stablecoin
             </h3>
-            <ul className="mt-10 text-[#0076c0b3] tracking-tighter flex flex-col gap-2">
+            <ul className="mt-10 text-zinc-600 tracking-tighter flex flex-col gap-2">
               <li className="list-disc list-inside text-2xl font-semibold">
                 Enjoy an APY of 11.45% (expected to rise to 14.88%)
               </li>
@@ -115,7 +123,7 @@ const Home = () => {
         </div>
       </div>
       <div className="w-full lg:min-h-screen py-10 px-20">
-        <h4 className="lg:text-5xl md:text-4xl lg-text-center lg:px-12 w-full text-3xl text-[#0077c0] lg:text-start text-center lg:tracking-normal md:tracking-normal tracking-tighter font-bold mt-2">
+        <h4 className="lg:text-5xl md:text-4xl lg:px-12 px-10 text-3xl text-[#0077c0] text-center lg:tracking-normal md:tracking-normal tracking-tighter font-bold mt-2">
           Give Reversal Economics <br className="lg:block md:block hidden" /> a
           go Let our protocol help you out
         </h4>
@@ -123,25 +131,24 @@ const Home = () => {
           {boxes.map((box) => (
             <div
               key={box.heading}
-              className="lg:w-[26rem] md:w-[26rem] sm:w-[26rem] w-full py-10 flex flex-col justify-center items-center rounded-2xl bg-white p-5"
+              className="lg:w-[24rem] md:w-[24rem] sm:w-[24rem] w-full py-10 flex flex-col justify-center items-center p-5"
             >
-              <div className="w-full">
+              <div className="w-full py-4">
                 <img
                   src={box.logo}
-                  className="mx-auto w-[10rem]"
-                  width={200}
-                  height={100}
+                  className="mx-auto w-[8rem]"
+                  alt="Image can't load"
                 />
               </div>
-              <div className="w-full h-2/5">
+              <div className="w-full ">
                 <h1 className="text-3xl lg-text-3xl text-[#0077c0] font-semibold text-center">
                   {box.heading}
                 </h1>
-                <p className="text-xl mb-8 lg-text-xl text-[#0076c0b3] font-semibold tracking-tight mt-5 text-center">
+                <p className="text-xl mb-8 px4 lg-text-xl text-[#0076c0b3] font-semibold tracking-tight mt-5 text-center">
                   {box.text}
                 </p>
               </div>
-              <button className="mx-auto mt-5 border-2 lg-px-7 lg-py-2 border-[#0077c0] text-[#0077c0] hover:bg-[#0077c0] hover:text-white transition-all duration-500 font-bold text-xl px-10 py-4 rounded-full">
+              <button className="mx-auto mt-8 border-2 lg-px-7 lg-py-2 border-[#0077c0] text-[#0077c0] hover:bg-[#0077c0] hover:text-white transition-all duration-500 font-bold text-xl px-6 py-3 rounded-md">
                 {box.buttonText}
               </button>
             </div>
@@ -151,7 +158,7 @@ const Home = () => {
       <h1 className="text-5xl w-full text-center font-bold mt-12 text-[#0077c0]">
         Meet Our Security Partners
       </h1>
-      <div className="w-full min-h-screen lg:px-40 md:px-20">
+      <div className="w-full lg:px-40 pb-20 md:px-20">
         <div className="w-full h-1/3 lg:px-20 md:px-20 px-4 pt-20">
           <div className="flex w-full">
             <div className="w-1/2 text-center flex flex-col">
@@ -167,24 +174,16 @@ const Home = () => {
               </h1>
             </div>
           </div>
-          <p className="text-xl font-semibold text-[#0077c0] mt-6 text-center lg:px-20 md:px-20 px-4">
+          <p className="text-xl font-semibold text-zinc-800 mt-6 text-center lg:px-20 md:px-20 px-4">
             Security is our top priority, and we've designed our platform with
             this in mind. Now, we're reinforcing it further with the assistance
             of third-party security experts.
           </p>
-          <p className="text-xl font-semibold text-[#0076c0b3] mt-5 text-center lg:px-20 md:px-20 px-4">
+          <p className="text-xl font-semibold text-zinc-500 mt-5 text-center lg:px-20 md:px-20 px-4">
             We understand the significance of security, especially in the realm
             of new lending protocols. Explore our audit reports or collaborate
             with us as we expand our third-party security initiatives.
           </p>
-        </div>
-        <div className="w-full min-h-[65vh] lg:grid lg:grid-cols-3 flex lg:px-20 md:px-14 sm:px-10 px-10 py-10 flex-wrap gap-5 justify-center">
-          <div className="lg:w-full md:w-[35rem] sm:w-[20rem] w-full h-[30vh] bg-white rounded-2xl overflow-hidden"></div>
-          <div className="lg:w-full md:w-[35rem] sm:w-[20rem] w-full h-[30vh] bg-white rounded-2xl overflow-hidden"></div>
-          <div className="lg:w-full md:w-[35rem] sm:w-[20rem] w-full h-[30vh] bg-white rounded-2xl overflow-hidden"></div>
-          <div className="lg:w-full md:w-[35rem] sm:w-[20rem] w-full h-[30vh] bg-white rounded-2xl overflow-hidden"></div>
-          <div className="lg:w-full md:w-[35rem] sm:w-[20rem] w-full h-[30vh] bg-white rounded-2xl overflow-hidden"></div>
-          <div className="lg:w-full md:w-[35rem] sm:w-[20rem] w-full h-[30vh] bg-white rounded-2xl overflow-hidden"></div>
         </div>
         <div className="w-1/2 h-full px-5"></div>
       </div>
