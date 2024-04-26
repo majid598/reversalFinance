@@ -210,7 +210,7 @@ const Home = () => {
               operation and governance
             </h4>
           </div>
-          <button className="lg:px-8 md:px-5 px-3 py-2 mt-6 rounded-md border-2 border-[#0077c0] hover:bg-[#0077c0] font-bold text-xl text-[#0077c0] hover:text-white transition-all duration-500 ">
+          <button className="lg:px-6 md:px-5 px-3 py-2 mt-6 rounded-md border-2 border-[#0077c0] hover:bg-[#0077c0] font-semibold text-xl text-[#0077c0] hover:text-white transition-all duration-500">
             DAO Analytics
           </button>
         </div>
