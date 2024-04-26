@@ -155,7 +155,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-      <h1 className="text-5xl w-full text-center font-bold mt-12 text-[#0077c0]">
+      <h1 className="lg:text-4xl md:text-4xl text-2xl w-full text-center font-bold mt-12 text-[#0077c0]">
         Meet Our Security Partners
       </h1>
       <div className="w-full lg:px-40 pb-20 md:px-20">
@@ -163,23 +163,23 @@ const Home = () => {
           <div className="flex w-full">
             <div className="w-1/2 text-center flex flex-col">
               <span className="text-5xl font-bold text-[#0077c0]">5</span>
-              <h2 className="text-2xl font-semibold text-[#0077c0] mt-4">
+              <h2 className="text-xl font-semibold text-[#0077c0] mt-4">
                 External Audits
               </h2>
             </div>
             <div className="w-1/2 text-center">
               <span className="text-5xl font-bold text-[#0077c0]">91%</span>
-              <h1 className="text-2xl font-semibold text-[#0077c0] mt-4">
+              <h1 className="text-xl font-semibold text-[#0077c0] mt-4">
                 DeFiSafety Score
               </h1>
             </div>
           </div>
-          <p className="text-xl font-semibold text-zinc-800 mt-6 text-center lg:px-20 md:px-20 px-4">
+          <p className="lg:text-xl font-semibold text-zinc-800 mt-6 text-center lg:px-20 md:px-20 px-4">
             Security is our top priority, and we've designed our platform with
             this in mind. Now, we're reinforcing it further with the assistance
             of third-party security experts.
           </p>
-          <p className="text-xl font-semibold text-zinc-500 mt-5 text-center lg:px-20 md:px-20 px-4">
+          <p className="lg:text-xl font-semibold text-zinc-500 mt-5 text-center lg:px-20 md:px-20 px-4">
             We understand the significance of security, especially in the realm
             of new lending protocols. Explore our audit reports or collaborate
             with us as we expand our third-party security initiatives.
@@ -200,10 +200,10 @@ const Home = () => {
       <div className="w-full p-20 px-40">
         <div className="w-full flex flex-col items-center">
           <div>
-            <h1 className="lg:text-6xl md:text-5xl text-3xl text-center font-bold text-[#0077c0]">
+            <h1 className="lg:text-4xl md:text-4xl text-2xl text-center font-bold text-[#0077c0]">
               The Stats
             </h1>
-            <h4 className="text-2xl font-semibold mt-5 text-zinc-500 text-center">
+            <h4 className="lg:text-xl font-semibold mt-5 text-zinc-500 text-center">
               Inverse Finance DAO operates unmatched transparency into its
               operation and governance
             </h4>
@@ -218,10 +218,10 @@ const Home = () => {
               key={state.title}
               className="w-full flex flex-col gap-4 items-center bg-white rounded-md p-5 px-6 text-center"
             >
-              <h1 className="lg:text-4xl md:text-2xl text-xl font-bold text-[#0077c0]">
+              <h1 className="lg:text-3xl md:text-2xl text-xl font-bold text-[#0077c0]">
                 ${state.value}
               </h1>
-              <h3 className="lg:text-2xl md:text-xl sm:text-lg text-sm font-semibold text-zinc-500 tracking-tight">
+              <h3 className="lg:text-xl md:text-xl sm:text-lg text-sm font-semibold text-zinc-500 tracking-tight">
                 {state.title}
               </h3>
             </div>
@@ -230,7 +230,7 @@ const Home = () => {
       </div>
       <div className="w-full lg:min-h-screen lg:px-20 px-10 py-5">
         <div className="w-full flex flex-col items-center justify-center">
-          <h1 className="lg:text-5xl md:text-3xl text-2xl font-bold text-[#0077c0] lg:text-start text-center">
+          <h1 className="lg:text-4xl md:text-4xl text-2xl font-bold text-[#0077c0] lg:text-start text-center">
             Building and Governing in one{" "}
           </h1>
           <button className="lg:px-5 px-3 py-2 mt-8 rounded-md border-2 text-[#0077c0] border-[#0077c0] transition-all duration-500 hover:bg-[#0077c0] hover:text-white font-semibold">
@@ -239,11 +239,11 @@ const Home = () => {
         </div>
         <div className="w-full flex mt-10 lg:flex-row lg-items-center">
           <div className="w-full text-center flex flex-col justify-center">
-            <p className="lg:text-2xl font-semibold text-center text-zinc-800">
+            <p className="lg:text-xl font-semibold text-center text-zinc-800">
               At Reversal Economics, we leverage 100% on-chain voting, avoiding
               the pitfalls associated with centralized DAO governance.
             </p>
-            <p className="lg:text-2xl font-semibold text-center text-zinc-500 mt-5">
+            <p className="lg:text-xl font-semibold text-center text-zinc-500 mt-5">
               We're committed to transparency, offering unparalleled levels of
               operational visibility in DeFi.
             </p>
